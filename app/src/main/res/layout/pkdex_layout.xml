@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <!-- Barra superior de información -->
+
+        <TextView
+            android:id="@+id/infoTitle"
+            android:layout_width="97dp"
+            android:layout_height="31dp"
+            android:background="#FF0000"
+            android:padding="10dp"
+            android:text="INFO"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        <!-- Imagen del Pokémon -->
+
+
+        <!-- Nombre del Pokémon -->
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="411dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/pokede_layout"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageView
+            android:id="@+id/pokemonImage"
+            android:layout_width="181dp"
+            android:layout_height="177dp"
+            android:layout_margin="16dp"
+            android:background="#00FF00"
+            tools:layout_editor_absoluteX="82dp"
+            tools:layout_editor_absoluteY="82dp" />
+
+        <TextView
+            android:id="@+id/pokemonName"
+            android:layout_width="354dp"
+            android:layout_height="26dp"
+            android:background="#FF4500"
+            android:padding="2dp"
+            android:text="Nombre del Pokémon"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="351dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+
+        <!-- Título del Pokémon -->
+        <TextView
+            android:id="@+id/pokemonTitle"
+            android:layout_width="376dp"
+            android:layout_height="23dp"
+            android:background="#0000FF"
+            android:padding="2dp"
+            android:text="Título del Pokémon"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="318dp"
+            tools:layout_editor_absoluteY="82dp" />
+
+
+        <!--  Tipo del Pokémon -->
+        <TextView
+            android:id="@+id/pokemonType"
+            android:layout_width="113dp"
+            android:layout_height="36dp"
+            android:background="#FFC0CB"
+            android:padding="3dp"
+            android:text="Tipo"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="423dp"
+            tools:layout_editor_absoluteY="127dp" />
+
+
+        <!-- Altura del Pokémon (HT) -->
+        <TextView
+            android:id="@+id/pokemonHeight"
+            android:layout_width="88dp"
+            android:layout_height="32dp"
+            android:background="#D3D3D3"
+            android:padding="4dp"
+            android:text="HT"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="488dp"
+            tools:layout_editor_absoluteY="178dp" />
+
+
+        <!-- Peso del Pokémon (WT) -->
+        <TextView
+            android:id="@+id/pokemonWeight"
+            android:layout_width="103dp"
+            android:layout_height="32dp"
+            android:background="#FFFF00"
+            android:padding="4dp"
+            android:text="WT"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="488dp"
+            tools:layout_editor_absoluteY="216dp" />
+
+        <!-- Descripción del Pokémon -->
+        <TextView
+            android:id="@+id/pokemonDescription"
+            android:layout_width="630dp"
+            android:layout_height="103dp"
+            android:background="#800080"
+            android:padding="6dp"
+            android:text="Descripción del Pokémon"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="281dp" />
+
+        <!-- Imagen Pokedex -->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</LinearLayout>

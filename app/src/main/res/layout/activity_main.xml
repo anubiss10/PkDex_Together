@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!-- Fondo Pokedex -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="408dp"
+        android:layout_height="733dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:rotation="-90"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/pokede_closed"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="-161dp" />
+
+
+    <!-- Botón para ir a la Pokedex -->
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="71dp"
+        android:layout_height="76dp"
+        android:backgroundTint="#06809B"
+        android:text="▶"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <!-- Título de la aplicación -->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="409dp"
+        android:layout_height="260dp"
+        android:src="@drawable/pklogo"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
